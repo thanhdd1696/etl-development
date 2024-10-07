@@ -1,0 +1,12 @@
+{
+  "extractor": {
+    "name" : "CsvExtractor"
+  },
+  "transformer": {
+    "name": "SkipTransformer"
+  },
+  "loader": {
+    "name": "PostgresLoader",
+    "dialect": "postgressql"
+  }
+}
